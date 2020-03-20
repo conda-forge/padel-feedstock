@@ -16,10 +16,10 @@ build:
 requirements:
   host:
     - openjdk
-    - python >=3
+    - python
   run:
     - openjdk
-    - python >=3
+    - python
 
 test:
   commands:
