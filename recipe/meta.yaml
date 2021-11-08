@@ -6,7 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: http://www.yapcwsoft.com/dd/padeldescriptor/versions/PaDEL-Descriptor%20v{{ version }}.zip
+  # url: http://www.yapcwsoft.com/dd/padeldescriptor/versions/PaDEL-Descriptor%20v{{ version }}.zip
+  url: http://www.yapcwsoft.com/dd/padeldescriptor/PaDEL-Descriptor.zip # the hash for the old versioned link has changed, this one remains the same though
   sha256: 9cfba80da884d67e79dc9777fbe842f84ee08b5457251eda37e5a2d8cfd80637
 
 build:
